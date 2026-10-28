@@ -1,0 +1,14 @@
+# Java
+backend/target/
+*.class
+# Node
+frontend/node_modules/
+frontend/dist/
+# Bundled at Docker build time, not committed
+backend/src/main/resources/static/
+# Env / IDE
+.env
+.idea/
+.vscode/
+*.iml
+.DS_Store
